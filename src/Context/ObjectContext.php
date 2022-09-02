@@ -40,6 +40,7 @@ class ObjectContext implements \ArrayAccess
     /**
      * {@inheritdoc}
      */
+    #[\ReturnTypeWillChange] 
     public function offsetGet($id)
     {
         $value = $this->accessor->getValue($this->object, $id);

@@ -35,6 +35,7 @@ class ExecutionContext implements \ArrayAccess
      *
      * @return mixed
      */
+    #[\ReturnTypeWillChange] 
     public function offsetGet($key)
     {
         if (!array_key_exists($key, $this->data)) {
