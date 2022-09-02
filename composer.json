@@ -11,6 +11,10 @@
             "email": "contact@kevingomez.fr"
         }
     ],
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/mathroc/Stream.git"
+    }],
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
@@ -32,7 +36,7 @@
     },
     "require": {
         "php": ">=7.1",
-
+        "hoa/stream": "dev-1.17.02.21-php8 as 1.17.02.21",
         "hoa/ruler": "~2.0",
         "symfony/property-access": "~3.0|~4.0"
     },
@@ -40,12 +44,9 @@
         "ext-json": "*",
 
         "mikey179/vfsstream": "~1.4",
-        "coduo/phpspec-data-provider-extension": "~1.0,!=1.0.2",
-        "phpspec/phpspec": "~2.0,>=2.4@dev",
+        "phpspec/phpspec": "^7.2",
 
         "behat/behat": "~3.0",
-
-        "kphoen/rusty": "dev-master",
 
         "liip/rmt": "^1.2"
     },
