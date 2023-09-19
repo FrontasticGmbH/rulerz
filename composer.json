@@ -1,5 +1,5 @@
 {
-    "name": "kphoen/rulerz",
+    "name": "frontastic/rulerz",
     "type": "library",
     "license": "MIT",
     "homepage": "https://github.com/K-Phoen/RulerZ",
@@ -53,5 +53,8 @@
         "rulerz-php/elasticsearch": "To execute rules against Elasticsearch targets",
         "rulerz-php/doctrine-dbal": "To execute rules against Doctrine DBAL targets",
         "rulerz-php/doctrine-orm": "To execute rules against Doctrine ORM targets"
+    },
+    "replace": {
+        "kphoen/rulerz": "*"
     }
 }
